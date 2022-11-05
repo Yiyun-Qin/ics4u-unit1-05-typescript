@@ -1,10 +1,9 @@
 /**
- * The HelloWorld program implements an application that
- * simply displays energy released question to the standard output.
+ * The function that calculates the length of a board foot.
  *
  * By:      Yiyun Qin
  * Version: 1.0
- * Since:   2022-09-23
+ * Since:   2022-11-05
  */
 
 import promptSync from 'prompt-sync'
