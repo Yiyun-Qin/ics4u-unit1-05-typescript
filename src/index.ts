@@ -38,8 +38,8 @@ const width = parseFloat(widthString)
 const height = parseFloat(heightString)
 if (isNaN(width) || isNaN(height)) {
   console.log('\nInvalid number!')
-} else if (width <= 0 || height <= 0 || width > 144 || height > 144) {
-  console.log('\nPlease enter integers between 1 and 144!')
+} else if (width <= 0 || height <= 0) {
+  console.log('\nPlease enter a positive number!')
 } else {
   const length = boardFoot(width, height)
   console.log(`\nThe wood should be ${length} inches long.`)
