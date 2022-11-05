@@ -20,7 +20,7 @@ const area = 144
  * @returns {number} lengthAnswer The final answer for the length.
  */
 function boardFoot(widthInt: number, heightInt: number): number {
-  let lengthAnswer = area / width / height
+  let lengthAnswer = area / widthInt / heightInt
   lengthAnswer = parseFloat(lengthAnswer.toFixed(2))
   return lengthAnswer
 }
