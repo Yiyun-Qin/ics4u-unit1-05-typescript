@@ -15,8 +15,8 @@ const area = 144
 /**
  * function, calculates the length.
  *
- * @param {number} widthInt The width of boardfoot.
- * @param {number} heightInt The height of boardfoot.
+ * @param {number} width The width of boardfoot.
+ * @param {number} height The height of boardfoot.
  * @returns {number} lengthAnswer The final answer for the length.
  */
 function boardFoot(width: number, height: number): number {
@@ -26,7 +26,7 @@ function boardFoot(width: number, height: number): number {
 }
 
 console.log(
-  'This program figutes out the length of a wooden board that is 1' +
+  'This program figures out the length of a wooden board that is 1' +
     ' board foot in dimension. (1 board foot is 144 inches³' +
     ' of wood.'
 )
