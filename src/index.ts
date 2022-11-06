@@ -19,15 +19,15 @@ const area = 144
  * @param {number} heightInt The height of boardfoot.
  * @returns {number} lengthAnswer The final answer for the length.
  */
-function boardFoot(widthInt: number, heightInt: number): number {
-  let lengthAnswer = area / widthInt / heightInt
+function boardFoot(width: number, height: number): number {
+  let lengthAnswer = area / width / height
   lengthAnswer = parseFloat(lengthAnswer.toFixed(2))
   return lengthAnswer
 }
 
 console.log(
   'This program figutes out the length of a wooden board that is 1' +
-    ' board food in dimension. (1 board foot is 144 inches³' +
+    ' board foot in dimension. (1 board foot is 144 inches³' +
     ' of wood.'
 )
 const widthString = prompt('Enter the width(inch): ')
