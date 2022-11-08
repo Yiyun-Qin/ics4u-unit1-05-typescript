@@ -10,8 +10,6 @@ import promptSync from 'prompt-sync'
 
 const prompt = promptSync()
 
-const area = 144
-
 /**
  * function, calculates the length.
  *
@@ -20,6 +18,7 @@ const area = 144
  * @returns {number} lengthAnswer The final answer for the length.
  */
 function boardFoot(width: number, height: number): number {
+  const area = 144
   let lengthAnswer = area / width / height
   lengthAnswer = parseFloat(lengthAnswer.toFixed(2))
   return lengthAnswer
